@@ -3,7 +3,7 @@ import React from 'react';
 const SearchBar = ({ serviceName, setServiceName, address, setAddress, onSearch }) => {
   return (
     <div className="mt-10 px-4">
-      <div className="flex flex-col md:flex-row items-center bg-white rounded-xl md:rounded-full shadow-lg  px-6 py-3 md:gap-0 gap-4 md:w-[700px] py-1 mx-auto">
+      <div className="flex flex-col md:flex-row items-center bg-white rounded-xl md:rounded-full shadow-lg  px-6 py-3 md:gap-0 gap-4 md:w-[700px] mx-auto">
         {/* Service Name Input */}
         <div className="flex flex-col flex-1 w-full">
           <label className="text-[#b46c87] font-semibold text-sm mb-1">Service Name</label>

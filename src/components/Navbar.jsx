@@ -80,12 +80,12 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="/about Us" className="text-[#141414] transition hover:text-gray-500/75" onClick={toggleMenu}>
+              <Link to="/about" className="text-[#141414] transition hover:text-gray-500/75" onClick={toggleMenu}>
                 About Us
               </Link>
             </li>
              <li>
-              <Link to="/contact Us" className="text-[#141414] transition hover:text-gray-500/75" onClick={toggleMenu}>
+              <Link to="/contact" className="text-[#141414] transition hover:text-gray-500/75" onClick={toggleMenu}>
                 Contact Us
               </Link>
             </li>
