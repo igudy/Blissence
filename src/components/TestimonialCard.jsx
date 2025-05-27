@@ -19,7 +19,7 @@ const testimonials = [
     title: "Excepteur sint occaecat cupidatat",
     message:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl. Nulla facilisi. Integer lobortis justo vitae turpis finibus.",
-    img: "/assets/testimonial/testi-img2.png",
+    img: "/assets/testimonial/testi-img1.png",
     topQuote: "/assets/testimonial/topquote.svg",
     bottomQuote: "/assets/testimonial/bottomquote.svg",
     decorations: ["/assets/testimonial/Rectangle10.svg", "/assets/testimonial/Rectangle9.svg"],
@@ -30,7 +30,7 @@ const testimonials = [
     title: "Ut enim ad minim veniam",
     message:
       "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    img: "/assets/testimonial/testi-img3.png",
+    img: "/assets/testimonial/testi-img1.png",
     topQuote: "/assets/testimonial/topquote.svg",
     bottomQuote: "/assets/testimonial/bottomquote.svg",
     decorations: ["/assets/testimonial/Rectangle10.svg", "/assets/testimonial/Rectangle9.svg"],

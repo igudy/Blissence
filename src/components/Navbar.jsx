@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { AlignRight, X } from "lucide-react";
+import LanguageSelector from "./LanguageSelector";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -42,11 +43,10 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <li>
-              <Link to="/language" className="text-[#141414] transition hover:text-gray-500/75">
-                EN
-              </Link>
-            </li>
+              <li>
+                <LanguageSelector />
+              </li>
+
 
             <li>
               <Link to="/login" className="text-[#141414] border-[1px] border-[#141414] rounded-md px-4 py-2.5 transition hover:text-gray-500/75">
@@ -89,11 +89,9 @@ const Navbar = () => {
                 Contact Us
               </Link>
             </li>
-            <li>
-              <Link to="/en" className="text-[#141414] transition hover:text-gray-500/75" onClick={toggleMenu}>
-                EN
-              </Link>
-            </li>
+              <li>
+                <LanguageSelector />
+              </li>
             <li>
               <Link to="/login" className="text-[#141414] border-[1px] border-[#141414] rounded-md px-4 py-2.5 mb-28 transition hover:text-gray-500/75 " onClick={toggleMenu}>
                 Login
