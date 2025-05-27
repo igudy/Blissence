@@ -1,3 +1,22 @@
-export default function AboutUs() {
-  return <div className="p-4 text-xl">AboutUs Page</div>;
+import React from 'react'
+import BigStory from './BigStory'
+import Features from './Features'
+import AboutService from './AboutService'
+import Journey from './Journey'
+import TestimonialCard from './TestimonialCard'
+import Footer from './Footer'
+
+const AboutUs = () => {
+  return (
+    <div>
+      <BigStory />
+      <Features />
+      <AboutService />
+      <Journey />
+      <TestimonialCard />
+      <Footer />
+    </div>
+  )
 }
+
+export default AboutUs
