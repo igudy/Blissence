@@ -22,11 +22,11 @@ const EmailSubscription = () => {
         </p>
 
         {/* Input and Button */}
-        <form className="flex flex-col sm:flex-row items-center bg-white border border-pink-200 rounded-full px-4 py-2 shadow-sm max-w-xl">
+        <form className="flex flex-row items-center bg-white border border-pink-200 rounded-full px-2 py-1 shadow-sm max-w-xl">
           <div className="flex items-center flex-1 w-full">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5 text-blue-500 mr-2"
+              className="h-5 w-5 text-gray-500  mr-2"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -41,7 +41,7 @@ const EmailSubscription = () => {
           </div>
           <button
             type="submit"
-            className="mt-2 sm:mt-0 sm:ml-4 bg-black text-white text-sm font-medium px-6 py-2 rounded-full"
+            className="ml-[-15px] sm:ml-4 bg-black text-white text-sm font-medium px-3 py-2 sm:px-6 sm:py-2 rounded-full"
           >
             Subscribe
           </button>

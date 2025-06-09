@@ -63,9 +63,9 @@ const TestimonialCard = () => {
           </h2>
         </div>
 
-        <div className="bg-[#3b233d] rounded-3xl w-full flex flex-col md:flex-row items-center px-8 py-20 md:py-16 md:px-40 relative">
+        <div className="bg-[#422A3C] rounded-[40px] h-[450px] sm:h-auto w-full flex flex-col md:flex-row items-center px-3 py-0 pb-2 sm:py-12 sm:px-20 lg:px-40 relative">
           <div className="flex flex-row mr-40">
-            <div className="flex flex-row gap-3 md:gap-5  md:h-full">
+            <div className="flex flex-row gap-2 sm:gap-3 lg:mr-20  sm:h-full">
           {t.decorations.map((src, i) => (
             <img
               key={i}
@@ -73,29 +73,29 @@ const TestimonialCard = () => {
               alt=""
               className={
                 i === 0
-                  ? "mb-48 mt-11 md:mt-0 md:mb-52 md:h-full h-28"
+                  ? " mt-0 md:mt-0 sm:mb-52 w-6 sm:w-full sm:h-32 h-28"
                   : i === 1
-                  ? "mt-10 md:mt-0 md:h-full h-60"
+                  ? "mt-[-10px] w-6 sm:w-full md:mt-0 sm:h-72 h-52"
                   : ""
               }
             />
           ))}
 
-              <div className="absolute z-20 mt-28 md:mt-36 ml-16  md:ml-24 ">
-                <div className="w-40 h-40 rounded-full border-4 border-white overflow-hidden">
+              <div className="absolute z-20 mt-12 sm:mt-20 ml-10  sm:ml-16 ">
+                <div className="w-28 h-28 sm:w-40 sm:h-40 rounded-full border-4 border-white overflow-hidden">
                   <img src={t.img} alt={t.name} className="w-full h-full object-cover" />
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="text-white flex-1 relative z-20 mt-10 md:mt-0">
-            <img src={t.topQuote} alt="Top quote" className="mb-4" />
+          <div className="text-white flex-1 relative z-20 mt-[-30px] sm:mt-0">
+            <img src={t.topQuote} alt="Top quote" className="mb-1 sm:mb-4 size-4 sm:size-auto" />
             <p className="font-semibold">{t.name}</p>
-            <p className="text-sm text-gray-300 mb-4">{t.location}</p>
-            <h3 className="text-2xl font-bold leading-snug mb-4">{t.title}</h3>
-            <p className="text-sm text-gray-300 leading-relaxed">{t.message}</p>
-            <div className="mt-4 flex justify-end">
+            <p className="text-xs sm:text-sm text-gray-300 mb-2 sm:mb-4">{t.location}</p>
+            <h3 className="text-xl sm:text-2xl font-bold leading-snug mb-2 sm:mb-4">{t.title}</h3>
+            <p className="text-xs sm:text-sm text-gray-300 leading-relaxed">{t.message}</p>
+            <div className="mt-0 size-4 float-right sm:size-auto sm:mt-4 flex justify-end">
               <img src={t.bottomQuote} alt="Bottom quote" />
             </div>
           </div>
@@ -110,7 +110,7 @@ const TestimonialCard = () => {
           </button>
           <button
             onClick={handleNext}
-            className="w-10 h-10 rounded-full bg-[#3b233d] text-white flex items-center justify-center hover:bg-[#5a3a5e] transition"
+            className="w-10 h-10 rounded-full bg-[#422A3C] text-white flex items-center justify-center hover:bg-[#5a3a5e] transition"
           >
             <ChevronRight className="w-5 h-5" />
           </button>

@@ -2,7 +2,7 @@ import React from "react";
 
 const ServiceCard = ({ image, rating, reviews, title, address, buttonText }) => {
   return (
-    <div className="bg-white rounded-2xl shadow-md border-[1px] border-slate-500 overflow-hidden flex flex-col w-72">
+    <div className="bg-white rounded-2xl shadow-md border-[1px] border-slate-500 overflow-hidden flex flex-col w-72 h-full">
       <img src={image} alt={title} className="h-60 w-full object-cover" />
       <div className="p-4 flex flex-col flex-grow">
         <div className="flex items-center mb-2">

@@ -72,8 +72,9 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <nav className="md:hidden mt-2">
-          <ul className="space-y-4 px-4 py-2 text-sm">
+        <nav className="md:hidden mt-0">
+        <ul className="flex flex-col items-center justify-center h-[calc(70vh-4rem)] gap-7 text-sm">
+
             <li>
               <Link to="/" className="text-[#141414] transition hover:text-gray-500/75" onClick={toggleMenu}>
                 Home
@@ -93,7 +94,8 @@ const Navbar = () => {
                 <LanguageSelector />
               </li>
             <li>
-              <Link to="/login" className="text-[#141414] border-[1px] border-[#141414] rounded-md px-4 py-2.5 mb-28 transition hover:text-gray-500/75 " onClick={toggleMenu}>
+              <Link to="/login" className="text-[#141414] border-[1px] border-[#141414] rounded-md px-4 py-2.5 mb-20 transition hover:text-gray-500/75" onClick={toggleMenu}>
+
                 Login
               </Link>
             </li>

@@ -37,7 +37,7 @@
 }
 @font-face {
   font-family: 'Playfair';
-  src: url('/assets/font/Play') format('woff2');
+  src: url('/assets/font/PlayfairDisplay-VariableFont') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
