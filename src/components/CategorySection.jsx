@@ -65,7 +65,7 @@ const CategorySection = () => {
           >
             {categories.map((cat, index) => (
               <SwiperSlide key={index}>
-                <div className="group relative cursor-pointer">
+                <div className="group relative cursor-pointer h-[140px] md:h-[200px]">
                   <div
                     className="flex flex-col items-center text-center p-4 transition-all 
                   duration-200 hover:transform hover:scale-105"
@@ -84,7 +84,7 @@ const CategorySection = () => {
                       />
                     </div>
                     <span
-                      className="text-[#3a1d2f] font-medium text-[12px] md:text-sm md:text-base 
+                      className="text-[#3a1d2f] font-medium text-[11px] md:text-sm md:text-base 
                     lg:text-sm transition-colors duration-300 
                     text-[#b46c87]"
                     >
