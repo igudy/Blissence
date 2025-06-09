@@ -76,7 +76,7 @@ const RecommendedServices = () => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
-      className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#faf5f0] to-white"
+      className="px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#faf5f0] to-white"
     >
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
