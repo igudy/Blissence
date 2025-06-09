@@ -37,9 +37,9 @@ const CategorySection = () => {
               prevEl: ".category-prev",
             }}
             spaceBetween={24}
-            slidesPerView={2}
+            slidesPerView={2.5}
             breakpoints={{
-              640: { slidesPerView: 3 },
+              640: { slidesPerView: 2.5 },
               768: { slidesPerView: 4 },
               1024: { slidesPerView: 5 },
               1280: { slidesPerView: 6 },
@@ -84,7 +84,7 @@ const CategorySection = () => {
                       />
                     </div>
                     <span
-                      className="text-[#3a1d2f] font-medium text-sm md:text-base 
+                      className="text-[#3a1d2f] font-medium text-[12px] md:text-sm md:text-base 
                     lg:text-sm transition-colors duration-300 
                     text-[#b46c87]"
                     >
