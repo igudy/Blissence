@@ -34,7 +34,7 @@ const Home = () => {
         {/* Content Container */}
         <div className="relative h-full flex flex-col justify-center">
           <div className="container mx-auto px-6 sm:px-8 lg:px-12">
-            <div className="flex flex-col justify-center items-center md:items-start mt-0 md:mt-5 text-center md:text-left">
+            <div className="flex flex-col justify-center items-center md:items-start mt-4 md:mt-5 text-center md:text-left">
               {/* Tagline with Animation */}
               <div className="flex items-center mb-4 animate-fadeInUp">
                 <img
