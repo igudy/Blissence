@@ -13,6 +13,7 @@ const categories = [
   { name: "Barber", icon: "/assets/category/barbersalon.png" },
   { name: "Massage Clinic", icon: "/assets/category/massageklinik.png" },
   { name: "Foot Therapist", icon: "/assets/category/fodterapeut.png" },
+  { name: "Wellness", icon: "/assets/category/wellnesscenter.png" },
 ];
 
 const CategorySection = () => {
@@ -46,7 +47,7 @@ const CategorySection = () => {
             loop={true}
             grabCursor={true}
             autoplay={{
-              delay: 1000,
+              delay: 3000,
               disableOnInteraction: false,
             }}
             freeMode={{
@@ -64,30 +65,59 @@ const CategorySection = () => {
           >
             {categories.map((cat, index) => (
               <SwiperSlide key={index}>
-                <div className="group relative">
-                  <div className="flex flex-col items-center text-center p-4 transition-all duration-200 hover:transform hover:scale-105">
-                    <div className="w- sm:w-14 sm:h-14 lg:w-28 lg:h-28 rounded-full bg-white shadow-lg flex items-center justify-center p-4 mb-4 transition-all duration-300 group-hover:shadow-xl group-hover:bg-[#f7e5c1]/20">
+                <div className="group relative cursor-pointer">
+                  <div
+                    className="flex flex-col items-center text-center p-4 transition-all 
+                  duration-200 hover:transform hover:scale-105"
+                  >
+                    <div
+                      className="w-16 md:w-28 md:h-28 rounded-full
+                     bg-white shadow-lg flex items-center justify-center p-4 mb-4
+                      transition-all duration-300 group-hover:shadow-xl 
+                      group-hover:bg-[#f7e5c1]/20"
+                    >
                       <img
                         src={cat.icon}
                         alt={cat.name}
-                        className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-110"
+                        className="w-full h-full object-contain transition-transform 
+                        duration-300 group-hover:scale-110"
                       />
                     </div>
-                    <span className="text-[#3a1d2f] font-medium text-sm md:text-base lg:text-sm transition-colors duration-300 group-hover:text-[#b46c87]">
+                    <span
+                      className="text-[#3a1d2f] font-medium text-sm md:text-base 
+                    lg:text-sm transition-colors duration-300 
+                    text-[#b46c87]"
+                    >
                       {cat.name}
                     </span>
                   </div>
-                  <div className="absolute inset-0 rounded-2xl border-2 border-transparent group-hover:border-[#b46c87]/30 transition-all duration-300 pointer-events-none" />
+                  <div
+                    className="absolute inset-0 rounded-2xl border-2
+                   border-transparent border-[#b46c87]/30 
+                   transition-all duration-300 pointer-events-none"
+                  />
                 </div>
               </SwiperSlide>
             ))}
           </Swiper>
 
           {/* Navigation Buttons */}
-          <button className="category-prev absolute left-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 flex items-center justify-center bg-white rounded-full shadow-lg text-[#3a1d2f] opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-[#f7e5c1]">
+          <button
+            className="category-prev absolute left-0 top-1/2 
+          -translate-y-1/2 z-10 w-10 h-10 flex items-center justify-center 
+          bg-white rounded-full shadow-lg text-[#3a1d2f] opacity-0 
+          group-hover:opacity-100 transition-opacity duration-300 
+          hover:bg-[#f7e5c1]"
+          >
             <FiChevronLeft className="w-6 h-6" />
           </button>
-          <button className="category-next absolute right-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 flex items-center justify-center bg-white rounded-full shadow-lg text-[#3a1d2f] opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-[#f7e5c1]">
+          <button
+            className="category-next absolute right-0 top-1/2
+           -translate-y-1/2 z-10 w-10 h-10 flex items-center 
+           justify-center bg-white rounded-full shadow-lg 
+           text-[#3a1d2f] opacity-0 group-hover:opacity-100 
+           transition-opacity duration-300 hover:bg-[#f7e5c1]"
+          >
             <FiChevronRight className="w-6 h-6" />
           </button>
         </div>

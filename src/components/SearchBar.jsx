@@ -23,6 +23,7 @@ const SearchBar = ({
             <input
               id="service"
               type="text"
+              disabled
               placeholder="Book your service..."
               value={serviceName}
               onChange={(e) => setServiceName(e.target.value)}
@@ -44,6 +45,7 @@ const SearchBar = ({
             <input
               id="address"
               type="text"
+              disabled
               placeholder="Enter location"
               value={address}
               onChange={(e) => setAddress(e.target.value)}

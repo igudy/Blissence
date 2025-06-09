@@ -21,7 +21,7 @@ const Home = () => {
   return (
     <div>
       {/* CTA SECTION */}
-      <div className="relative w-full h-[600px] sm:h-[450px] md:h-[500px] overflow-hidden">
+      <div className="relative w-full h-[700px] sm:h-[450px] md:h-[500px] overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
           <img
             src="/assets/homeimg.jpg"

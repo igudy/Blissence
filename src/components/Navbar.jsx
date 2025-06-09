@@ -60,7 +60,7 @@ const Navbar = () => {
             <li>
               <LanguageSelector />
             </li>
-
+            {/* 
             <li
               onClick={() => handleMenuClick("Login")}
               className="cursor-pointer text-[#141414] border border-[#141414] rounded-md px-4 py-2.5 transition hover:text-gray-500/75"
@@ -73,7 +73,7 @@ const Navbar = () => {
               className="cursor-pointer rounded-md bg-[#141414] px-5 py-2.5 text-sm font-medium text-white shadow"
             >
               Signup
-            </li>
+            </li> */}
           </ul>
         </nav>
 
@@ -131,24 +131,21 @@ const Navbar = () => {
                   </li>
                 );
               })}
-
               <li>
                 <LanguageSelector />
               </li>
-
-              <li
+              {/* <li
                 onClick={() => handleMenuClick("Login")}
                 className="text-[#141414] border border-[#141414] rounded-md px-4 py-2.5 mb-20 transition hover:text-gray-500/75"
               >
                 Login
               </li>
-
               <li
                 onClick={() => handleMenuClick("Signup")}
                 className="rounded-md bg-[#141414] px-5 py-2.5 text-sm font-medium text-white shadow"
               >
                 Signup
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>
