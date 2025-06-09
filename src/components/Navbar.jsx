@@ -31,7 +31,7 @@ const Navbar = () => {
               alt="Logo"
               className="size-8 mr-3"
             />
-            STYLICLE
+            BLISSENCE
           </Link>
         </div>
 
