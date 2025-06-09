@@ -78,13 +78,13 @@ const RecommendedServices = () => {
       transition={{ duration: 0.6 }}
       className="px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#faf5f0] to-white"
     >
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-12">
+      <div className="max-w-7xl mx-auto my-10">
+        <div className="text-center mb-12 mt-3">
           <motion.h2
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1, duration: 0.5 }}
-            className="text-xs uppercase text-[#BA7894] font-medium tracking-widest mb-3"
+            className="text-xs uppercase text-[#BA7894] font-medium tracking-widest my-3 pt-5"
           >
             Premium Selection
           </motion.h2>

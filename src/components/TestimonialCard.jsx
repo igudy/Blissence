@@ -61,7 +61,7 @@ const TestimonialCard = () => {
   const t = testimonials[current];
 
   return (
-    <div className="w-full bg-gradient-to-b from-white via-white to-gray-100 flex items-center justify-center px-4 py-10">
+    <div className="w-full bg-gradient-to-b from-white via-white to-gray-100 flex items-center justify-center px-4 pb-4">
       <div className="max-w-5xl w-full">
         <div className="text-center mb-12">
           <p className="text-xs font-medium text-pink-400 uppercase tracking-wider mb-2">
