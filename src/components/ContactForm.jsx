@@ -1,7 +1,5 @@
-// ContactForm.jsx
-
-import React from 'react';
-import { User, Mail, Phone, NotebookText, PencilLine } from 'lucide-react';
+import React from "react";
+import { User, Mail, Phone, NotebookText, PencilLine } from "lucide-react";
 
 const ContactForm = () => {
   return (
@@ -14,8 +12,9 @@ const ContactForm = () => {
           Get in touch
         </h2>
         <p className="text-gray-600 text-base leading-relaxed max-w-md mx-auto">
-          There are many variations of passages of Lorem Ipsum available, but the
-          majority have suffered alteration in some form.
+          We'd love to hear from you! Whether you're interested in our services,
+          have a question, or just want to say hello—feel free to reach out
+          using the form below.
         </p>
       </div>
 

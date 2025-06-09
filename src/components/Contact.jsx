@@ -1,7 +1,7 @@
 // Contact.jsx
 
-import React from 'react';
-import { Mail, Phone, Home } from 'lucide-react';
+import React from "react";
+import { Mail, Phone, Home } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -23,12 +23,13 @@ const Contact = () => {
           Get in Touch
         </p>
         <h2 className="text-4xl md:text-3xl font-extrabold font-playfair leading-snug mb-6">
-          We are here to help<br />you always...
+          We are here to help
+          <br />
+          you always...
         </h2>
         <p className="text-base md:text-sm text-[#422A3C] mb-10 max-w-md leading-relaxed">
-          There are many variations of passages of Lorem Ipsum available,
-          but the majority have suffered alteration in some form, buying to
-          many desktop publishing packages.
+          Whether you have questions, feedback, or need assistance, we're just a
+          message or call away.
         </p>
 
         {/* Contact Info */}
@@ -51,9 +52,7 @@ const Contact = () => {
             </div>
             <div>
               <p className="text-lg  md:text-sm font-semibold">Drop Us :</p>
-              <p className="text-xs text-[#422A3C]">
-                SUPPORT@BEAUTYNESS.COM
-              </p>
+              <p className="text-xs text-[#422A3C]">SUPPORT@BEAUTYNESS.COM</p>
             </div>
           </div>
 

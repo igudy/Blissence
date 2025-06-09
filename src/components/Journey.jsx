@@ -1,5 +1,3 @@
-// Journey.jsx
-
 import React from "react";
 import { Play } from "lucide-react";
 
@@ -16,16 +14,20 @@ const Journey = () => {
             The start of the journey
           </h2>
           <p className="text-[#4F4F4F] text-xs leading-relaxed mb-8">
-            ServiceMarket.dk was founded in 2021 by two young entrepreneurs who saw a problem
-            with the fragmented service industry in Denmark. There were thousands of small
-            businesses offering services, but it was difficult for consumers to find them and know
-            which ones to choose. They developed the idea of creating a platform that would bring all
-            these service providers together in one place, making it easier for consumers to find what
-            they need and get their issues resolved quickly and easily. Without having to go to many
-            different websites, each with their own booking system.
+            ServiceMarket.dk was founded in 2021 by two young entrepreneurs who
+            saw a problem with the fragmented service industry in Denmark. There
+            were thousands of small businesses offering services, but it was
+            difficult for consumers to find them and know which ones to choose.
+            They developed the idea of creating a platform that would bring all
+            these service providers together in one place, making it easier for
+            consumers to find what they need and get their issues resolved
+            quickly and easily—without having to visit multiple websites or use
+            clunky booking tools.
           </p>
 
-          <h3 className="text-xl font-bold font-playfair text-[#111] mb-6">Our Methodology :</h3>
+          <h3 className="text-xl font-bold font-playfair text-[#111] mb-6">
+            Our Methodology :
+          </h3>
 
           <div className="space-y-6">
             {/* Step 1 */}
@@ -46,8 +48,10 @@ const Journey = () => {
                 <p className="font-semibold text-base md:text-sm text-[#111] mb-1">
                   The Assessment Stage
                 </p>
-                <p className="text-[#4F4F4F] text-sm md:">
-                  The point of using Lorem Ipsum is that it has a more-or-less normal letters.
+                <p className="text-[#4F4F4F] text-sm">
+                  We begin by understanding the client's needs, identifying the
+                  services required, and evaluating the best providers available
+                  for the task.
                 </p>
               </div>
             </div>
@@ -68,10 +72,12 @@ const Journey = () => {
               </div>
               <div>
                 <p className="font-semibold text-base md:text-sm text-[#111] mb-1">
-                  The Initialisation Stage
+                  The Initialization Stage
                 </p>
-                <p className="text-[#4F4F4F] text-sm md:text-xs">
-                  The point of using Lorem Ipsum is that it has a more-or-less normal letters.
+                <p className="text-[#4F4F4F] text-sm">
+                  Once we’ve matched the client with the right provider, we set
+                  up appointments, ensure onboarding is smooth, and facilitate
+                  communication between both parties.
                 </p>
               </div>
             </div>
@@ -94,8 +100,10 @@ const Journey = () => {
                 <p className="font-semibold text-base md:text-sm text-[#111] mb-1">
                   The Treatment Stage
                 </p>
-                <p className="text-[#4F4F4F] text-sm md:text-xs">
-                  The point of using Lorem Ipsum is that it has a more-or-less normal letters.
+                <p className="text-[#4F4F4F] text-sm">
+                  The service is carried out professionally, with follow-ups and
+                  quality checks. We ensure satisfaction and collect feedback to
+                  continuously improve.
                 </p>
               </div>
             </div>

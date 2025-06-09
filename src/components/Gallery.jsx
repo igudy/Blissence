@@ -10,33 +10,34 @@ const gallery = [
 
 const Gallery = () => {
   return (
-    <div className=" bg-gray-50 font-playfair text-[#422A3C] text-center">
+    <div className="bg-gray-50 font-playfair text-[#422A3C] text-center">
       <h2 className="text-3xl font-bold text-[#422A3C] mb-4">
         We are <span className="tex">Experienced</span> in making you <br />{" "}
         very <span className="text-[#422A3C]">Beautiful</span>
       </h2>
       <p className="text-gray-500 font-manrope max-w-xl mx-auto px-2 sm:px-auto mb-8">
-        Lorem ipsum dolor sit amet consectetur. Eu quis enim tempor et proin
-        neque.
+        From rejuvenating facials to soothing massages, our expert touch helps
+        you look and feel your best. Explore our gallery to see real moments of
+        beauty, care, and transformation.
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:auto-rows-[200px] gap-4 max-w-5xl mx-auto px-4">
         {gallery.map((gallery, index) => (
           <div
             key={index}
             className={`
-    overflow-hidden
-    ${
-      index === 0
-        ? "rounded-tl-[50px] rounded-tr-[50px] md:rounded-tl-[50px] md:rounded-tr-none md:rounded-bl-[50px] md:col-span-1 md:row-span-2"
-        : ""
-    }
-    ${index === 2 ? "md:rounded-tr-[50px]" : ""}
-    ${
-      index === 4
-        ? "rounded-bl-[50px] rounded-br-[50px] md:rounded-bl-none md:rounded-br-[50px]"
-        : ""
-    }
-  `}
+              overflow-hidden
+              ${
+                index === 0
+                  ? "rounded-tl-[50px] rounded-tr-[50px] md:rounded-tl-[50px] md:rounded-tr-none md:rounded-bl-[50px] md:col-span-1 md:row-span-2"
+                  : ""
+              }
+              ${index === 2 ? "md:rounded-tr-[50px]" : ""}
+              ${
+                index === 4
+                  ? "rounded-bl-[50px] rounded-br-[50px] md:rounded-bl-none md:rounded-br-[50px]"
+                  : ""
+              }
+            `}
           >
             <img
               src={gallery.src}

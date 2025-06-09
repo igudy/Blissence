@@ -5,9 +5,9 @@ const testimonials = [
   {
     name: "Leslie Alexander",
     location: "Moncton, Canada",
-    title: "Neque porro quisquam est qui dolum",
+    title: "Exceptional Service and Support",
     message:
-      "It is a long established fact that a reader will be tracked distracted by the readable content of a page is when looking at its layout. The point of using Lorem of distribution it look like readable English.",
+      "From the first interaction, I was impressed by the level of professionalism and attention to detail. The team was always available to answer my questions and made the entire process seamless. I couldn't be happier!",
     img: "/assets/testimonial/testi-img1.png",
     topQuote: "/assets/testimonial/topquote.svg",
     bottomQuote: "/assets/testimonial/bottomquote.svg",
@@ -19,9 +19,9 @@ const testimonials = [
   {
     name: "James Smith",
     location: "London, UK",
-    title: "Excepteur sint occaecat cupidatat",
+    title: "A Game-Changer for Our Business",
     message:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl. Nulla facilisi. Integer lobortis justo vitae turpis finibus.",
+      "Working with this team has completely transformed how we operate. Their innovative solutions helped us streamline our workflow, save time, and increase customer satisfaction. Highly recommended.",
     img: "/assets/testimonial/testi-img1.png",
     topQuote: "/assets/testimonial/topquote.svg",
     bottomQuote: "/assets/testimonial/bottomquote.svg",
@@ -33,9 +33,9 @@ const testimonials = [
   {
     name: "Ava Chen",
     location: "Singapore",
-    title: "Ut enim ad minim veniam",
+    title: "Professional, Reliable, and Creative",
     message:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "I was blown away by the creativity and quality of work delivered. They listened carefully to my needs and brought my vision to life with precision and flair. Truly a pleasure to work with!",
     img: "/assets/testimonial/testi-img1.png",
     topQuote: "/assets/testimonial/topquote.svg",
     bottomQuote: "/assets/testimonial/bottomquote.svg",
