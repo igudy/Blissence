@@ -1,52 +1,66 @@
-import React from 'react';
+import React from "react";
+import { FiSearch, FiMapPin } from "react-icons/fi";
 
-const SearchBar = ({ serviceName, setServiceName, address, setAddress, onSearch }) => {
+const SearchBar = ({
+  serviceName,
+  setServiceName,
+  address,
+  setAddress,
+  onSearch,
+}) => {
   return (
     <div className="mt-10 px-4">
-      <div className="flex flex-col md:flex-row items-center bg-white rounded-xl md:rounded-full shadow-lg  px-6 py-2 md:gap-4 gap-4 md:w-[600px] lg:w-[800px] mx-auto">
+      <div className="flex flex-col md:flex-row items-center bg-white rounded-2xl shadow-lg px-6 py-4 gap-4 max-w-4xl mx-auto w-full">
         {/* Service Name Input */}
         <div className="flex flex-col flex-1 w-full">
-          <label className="text-[#b46c87] font-semibold text-sm mb-1">Service Name</label>
-          <div className="flex items-center border-b border-black">
+          <label
+            htmlFor="service"
+            className="text-[#b46c87] font-medium text-sm mb-1"
+          >
+            Service Name
+          </label>
+          <div className="relative">
             <input
+              id="service"
               type="text"
               placeholder="Book your service..."
               value={serviceName}
               onChange={(e) => setServiceName(e.target.value)}
-              className="md:w-38 lg:w-48 w-full focus:outline-none text-black placeholder:text-black/50 text-sm"
+              className="w-full pr-8 text-sm placeholder:text-gray-400 text-gray-800 focus:outline-none border-b border-gray-300 py-2 focus:border-[#b46c87] transition-colors"
             />
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 text-black lg:ml-24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-            </svg>
+            <FiSearch className="absolute right-2 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
           </div>
         </div>
 
         {/* Address Input */}
         <div className="flex flex-col flex-1 w-full">
-          <label className="text-[#b46c87] font-semibold text-sm mb-1">Address</label>
-          <div className="flex items-center border-b border-black sm:mr-5">
+          <label
+            htmlFor="address"
+            className="text-[#b46c87] font-medium text-sm mb-1"
+          >
+            Address
+          </label>
+          <div className="relative">
             <input
+              id="address"
               type="text"
               placeholder="Enter location"
               value={address}
               onChange={(e) => setAddress(e.target.value)}
-              className="sm:w-40 md:w-38 lg:w-48 w-full focus:outline-none text-black placeholder:text-black/50 text-sm"
+              className="w-full pr-8 text-sm placeholder:text-gray-400 text-gray-800 focus:outline-none border-b border-gray-300 py-2 focus:border-[#b46c87] transition-colors"
             />
-            <img src="/assets/Icons/location.svg" className="md:ml-3 lg:ml-20" alt="" />
-
+            <FiMapPin className="absolute right-2 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
           </div>
         </div>
 
         {/* Search Button */}
         <button
-          aria-label="Search for service"
-          className="bg-[#b46c87] text-white rounded-full md:px-6 px-8 py-3 flex items-center gap-2 font-semibold md:mr-[-10px] "
+          aria-label="Search"
           onClick={onSearch}
+          className="bg-[#b46c87] hover:bg-[#9d5b75] text-white rounded-full px-6 py-3 font-semibold flex items-center gap-2 whitespace-nowrap transition-colors shadow-md hover:shadow-lg"
         >
           Search
-          <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4  text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-          </svg>
+          <FiSearch className="w-4 h-4" />
         </button>
       </div>
     </div>

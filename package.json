@@ -1,5 +1,5 @@
 {
-  "name": "stylicle-beauty-bar",
+  "name": "blissence",
   "version": "0.0.1",
   "type": "module",
   "scripts": {
@@ -10,6 +10,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "framer-motion": "^12.16.0",
     "lucide-react": "^0.511.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
