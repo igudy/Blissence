@@ -12,8 +12,8 @@ const Gallery = () => {
   return (
     <div className="bg-gray-50 font-playfair text-[#422A3C] text-center">
       <h2 className="text-3xl font-bold text-[#422A3C] mb-4">
-        We are <span className="tex">Experienced</span> in making you <br />{" "}
-        very <span className="text-[#422A3C]">Beautiful</span>
+        We are <span className="tex">Experienced</span> in making you very
+        Beautiful
       </h2>
       <p className="text-gray-500 font-manrope max-w-xl mx-auto px-2 sm:px-auto mb-8">
         From rejuvenating facials to soothing massages, our expert touch helps
