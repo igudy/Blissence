@@ -6,11 +6,16 @@ import { motion } from "framer-motion";
 import "swiper/css";
 import "swiper/css/navigation";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
+import salon1 from "../assets/card/salon1.png";
+import salon2 from "../assets/card/salon2.png";
+import salon3 from "../assets/card/salon3.png";
+import salon4 from "../assets/card/salon4.png";
+import salon5 from "../assets/card/salon5.png";
 
 const services = [
   {
     id: 1,
-    image: "../../public/assets/card/salon1.png",
+    image: salon1,
     rating: 4.8,
     reviews: 127,
     title: "Luxury Hair Studio",
@@ -21,7 +26,7 @@ const services = [
   },
   {
     id: 2,
-    image: "/assets/card/salon2.png",
+    image: salon2,
     rating: 4.7,
     reviews: 92,
     title: "Urban Beauty Lounge",
@@ -32,7 +37,7 @@ const services = [
   },
   {
     id: 3,
-    image: "/assets/card/salon3.png",
+    image: salon3,
     rating: 4.9,
     reviews: 215,
     title: "Deluxe Spa Retreat",
@@ -43,7 +48,7 @@ const services = [
   },
   {
     id: 4,
-    image: "/assets/card/salon4.png",
+    image: salon4,
     rating: 4.6,
     reviews: 78,
     title: "Executive Barber Club",
@@ -54,7 +59,7 @@ const services = [
   },
   {
     id: 5,
-    image: "/assets/card/salon5.png",
+    image: salon5,
     rating: 4.8,
     reviews: 143,
     title: "Glamour Nail Atelier",

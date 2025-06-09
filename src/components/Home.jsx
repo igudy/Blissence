@@ -21,8 +21,7 @@ const Home = () => {
   return (
     <div>
       {/* CTA SECTION */}
-      <div className="relative w-full h-[600px] sm:h-[700px] overflow-hidden">
-        {/* Background Image with Parallax Effect */}
+      <div className="relative w-full h-[600px] sm:h-[450px] md:h-[500px] overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
           <img
             src="/assets/homeimg.jpg"
@@ -35,7 +34,7 @@ const Home = () => {
         {/* Content Container */}
         <div className="relative h-full flex flex-col justify-center">
           <div className="container mx-auto px-6 sm:px-8 lg:px-12">
-            <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left">
+            <div className="flex flex-col justify-center items-center md:items-start mt-0 md:mt-5 text-center md:text-left">
               {/* Tagline with Animation */}
               <div className="flex items-center mb-4 animate-fadeInUp">
                 <img
@@ -43,7 +42,7 @@ const Home = () => {
                   alt="Stylistic Mark"
                   className="w-5 h-5 mr-2 filter brightness-0 invert"
                 />
-                <span className="uppercase tracking-widest text-xs md:text-sm font-medium text-white/90">
+                <span className="uppercase tracking-widest text-xs md:text-sm font-medium text-white/90 ">
                   Hair Salon • Masseuse • Beauty Salon
                 </span>
               </div>
